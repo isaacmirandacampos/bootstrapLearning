@@ -5,8 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Document</title>
-        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
@@ -131,13 +131,13 @@
                             <p>Achei incrível</p>
                         </figcaption>
                     </figure>
-                        <figure class="item">
-                            <img src="img/depoimentos/depo3.png">
-                            <figcaption class="carousel-caption">                 
-                                <h3>Robert Bragança</h3>
-                                <p>Inovador</p>
-                            </figcaption>
-                        </figure>
+                    <figure class="item">
+                        <img src="img/depoimentos/depo3.png">
+                        <figcaption class="carousel-caption">
+                            <h3>Robert Bragança</h3>
+                            <p>Inovador</p>
+                        </figcaption>
+                    </figure>
 
                 </div>
 
@@ -151,13 +151,77 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-    </section>
+        </section>
 
+        <section>
+            <div class="container">
+                <h2>Video institucional</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/03j26BYamdQ" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
 
+        <section class="container">
+            <h3>Contato</h3>
+            <p>Entre em Contato conosco</p>
+            <form>
+                <form class="form-group">
+                    <label for="contato-nome">Nome:</label>
+                    <input class="form-control" id="contato-nome" type="text" placeholder="Seu nome">
+                </form>
+                <form class="form-group">
+                    <label for="contato-email">E-mail:</label>
+                    <div class="input-group">
+                        <label class="input-group-addon" for="contato-email">@</label>
+                        <input class="form-control" type="email" placeholder="Digite seu Email" id="contato-email">
+                    </div>
+
+                    <div class="grupo-radio">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="tipo-pessoa" checked>
+                                Pessoa Física
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="tipo-pessoa" checked>
+                                Pessoa Jurídica
+                            </label>
+                        </div>
+                    </div>
+                    <select class=" contato-select form-control">
+                        <option disabled selected>Tipo de Situação</option>
+                        <option>Casa</option>
+                        <option>Apartamento</option>
+                        <option>Mansão</option>
+                    </select>
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </form>
+
+        </section>
+
+        <footer>
+            <address>
+                <strong>TopCasaFina Arquitetura</strong><br>
+                Rua Vergueiro, 3185, Vila Mariana <br>
+                São Paulo, SP <br>               
+            </address>
+
+            <address>
+                Tel: (11) 5571-2751 ou 5083-3884 <br>
+                Email: contato.topcasafina@alura.com.br
+            </address>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="css/bootstrap/js/bootstrap.min.js"></script>
     </body>
 
 </html>
